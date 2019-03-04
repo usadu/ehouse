@@ -1,0 +1,161 @@
+/********************************管理员---用户管理页面样式********************************/
+body {
+	font-size: .875rem;
+}
+
+.feather {
+	width: 16px;
+	height: 16px;
+	vertical-align: text-bottom;
+}
+
+/*
+ * Sidebar
+ */
+.sidebar {
+	top: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 100; /* Behind the navbar */
+	padding: 0;
+	box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+}
+
+.sidebar-sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 48px; /* Height of navbar */
+	height: calc(100vh - 48px);
+	padding-top: .5rem;
+	overflow-x: hidden;
+	overflow-y: auto;
+	/* Scrollable contents if viewport is shorter than content. */
+}
+
+.sidebar .nav-link {
+	font-weight: 500;
+	color: #333;
+}
+
+.sidebar .nav-link .feather {
+	margin-right: 4px;
+	color: #999;
+}
+
+.sidebar .nav-link.active {
+	color: #007bff;
+}
+
+.sidebar .nav-link:hover .feather, .sidebar .nav-link.active .feather {
+	color: inherit;
+}
+
+.sidebar-heading {
+	font-size: .75rem;
+	text-transform: uppercase;
+}
+
+/*
+ * Navbar
+ */
+.navbar-brand {
+	padding-top: .75rem;
+	padding-bottom: .75rem;
+	font-size: 1rem; /* 
+	background-color: rgba(0, 0, 0, .25);
+	box-shadow: inset -1px 0 0 rgba(0, 0, 0, .25); */
+}
+
+.navbar .form-control {
+	padding: .75rem 1rem;
+	border-width: 0;
+	border-radius: 0;
+}
+
+.form-control-dark {
+	color: #fff;
+	background-color: rgba(255, 255, 255, .1);
+	border-color: rgba(255, 255, 255, .1);
+}
+
+.form-control-dark:focus {
+	border-color: transparent;
+	box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
+}
+
+/*
+ * Utilities
+ */
+.border-top {
+	border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.bg-dark {
+	background-color: #89ada2 !important;
+}
+
+.sidebar-sticky {
+	background: #B3CAC3;
+	/* background-image: url(../img/tb14.jpg);
+	opacity: 0.5; */
+}
+
+.container-fluid {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cfd8dc+0,607d8b+100,b0bec5+100 */
+	background: #aac4bc; /* Old browsers */
+	background: -moz-linear-gradient(-45deg, #aac4bc 0%, #eca8a8 100%, #eed5a9 100%);
+	/* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg, #aac4bc 0%, #eca8a8 100%, #eed5a9 100%);
+	/* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg, #aac4bc 0%, #eca8a8 100%, #eed5a9 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfd8dc',
+		endColorstr='#b0bec5', GradientType=1);
+	/* IE6-9 fallback on horizontal gradient */
+}
+
+.exf_nav li {
+	font-size: 16px
+}
+
+.exf_foot_bg {
+	background: #ECA8A8;
+}
+.exf_tb{
+	width:100%;
+}
+.exf-mcbg{
+	background-image: url(../img/tb18.jpg)
+}
+.exf-mcbg-del{
+	background-image: url(../img/tb4.jpg)
+}
+.exf-mcbg-add{
+	background-image: url(../img/tb2.jpg)
+}
+.ttop{
+	margin: 15px 0;
+}
+.exf_cf a{
+	width:140px;
+	margin: 0 auto;
+}
+.ecf_mb{
+	opacity:0.93
+}
+.ecf_mb2{
+	border-radius: 10px;
+}
+.ecf_mb3{
+	padding-top:20px
+}
+.exf_sjgl{
+	margin: 24px 0;
+}
+.esf_pg{
+	margin: 40px auto;
+}
